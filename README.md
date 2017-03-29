@@ -52,7 +52,7 @@ So, that numbers cohere with the numbers provided in the post. Let's see what ha
 The results look much nicer, than the first run, and we can see the reducing of the execution time by approximately 54%, which sounds very good. Let's try the last script and see, what happens there.
 
 ## PHP - Run 2
-* 22ms<br /
+* 22ms
 * 17ms
 * 19ms
 * 18ms
