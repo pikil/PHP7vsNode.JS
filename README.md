@@ -6,3 +6,6 @@
 
 # For vs Foreach in PHP
 ## go into php-for-vs-foreach
+
+# define() vs const in PHP
+## go into php-define-vs-const

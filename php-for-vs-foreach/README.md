@@ -1,5 +1,5 @@
-# FOR vs FOREACH in PHP
-## just checking if for really faster
+# define() vs const in PHP
+## just checking if const really faster
 
 Getting three different runs in PHP for different types of data initialisation
 
@@ -8,20 +8,20 @@ Getting three different runs in PHP for different types of data initialisation
 * 4GB RAM,
 * Intel i3, 1.7 GHz
 
-## for.php
-* 126.9ms
-* 128.6ms
-* 127.3ms
-* 127.9ms
-* 126.3ms
-#### (Min: 126.3ms, Max: 128.6ms, Avg: 127.4ms)
+## define.php
+* 8.25ms
+* 3.89ms
+* 4.01ms
+* 4.33ms
+* 3.50ms
+#### (Min: 3.50ms, Max: 8.25ms, Avg: 4.79ms)
 
-## foreach.php
-* 114.2ms
-* 115.2ms
-* 113.1ms
-* 112.6ms
-* 113.4ms
-#### (Min: 112.6ms, Max: 115.2ms, Avg: 113.7ms)
+## const.php
+* 2.83ms
+* 2.81ms
+* 2.86ms
+* 3.05ms
+* 2.85ms
+#### (Min: 2.86ms, Max: 2.81ms, Avg: 2.88ms)
 
-Looks like 'foreach' loops work surprisingly about 10%-15% faster, than 'for' ones...
+Apart of the big non-cached first time result for define, the const values take about 50% less time to perform, than define() values...
