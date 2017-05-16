@@ -3,7 +3,7 @@
 
 Getting three different runs in PHP for different types of data initialisation
 
-#### Machine speecification
+#### Machine specification
 * v7.1.0
 * 4GB RAM,
 * Intel i3, 1.7 GHz

@@ -22,5 +22,5 @@ for ($j=0; $j < 100000; $j++) {
   }
 }
 
-print_r($array);
-echo 'PHP script (run2) took '.((microtime(true) - $starttime) * 1000).'ms';
+print_r($array."\n");
+echo 'PHP script ('.basename(__FILE__).') took '.((microtime(true) - $starttime) * 1000).'ms';

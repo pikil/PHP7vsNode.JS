@@ -10,5 +10,5 @@ for ($x=0; $x < 1000; $x++){
   $array[] = $o;
 }
 
-print_r($array);
-echo 'PHP script (run1) took '.((microtime(true) - $starttime) * 1000).'ms';
+print_r($array."\n");
+echo 'PHP script ('.basename(__FILE__).') took '.((microtime(true) - $starttime) * 1000).'ms';

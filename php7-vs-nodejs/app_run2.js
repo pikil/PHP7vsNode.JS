@@ -22,5 +22,5 @@ for (var j = 0; j < 100000; j++) {
 	}
 }
 
-console.log(array);
-console.log('Node.js script (run2) took ' + (new Date().getTime() - starttime) + 'ms');
+print_r($array."\n");
+echo 'PHP script ('.basename(__FILE__).') took '.((microtime(true) - $starttime) * 1000).'ms';
