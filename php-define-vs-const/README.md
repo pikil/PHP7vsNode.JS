@@ -1,4 +1,4 @@
-# FOR vs FOREACH in PHP
+# define() vs const in PHP
 ## just checking if for really faster
 
 Getting three different runs in PHP for different types of data initialisation

@@ -9,3 +9,6 @@
 
 # define() vs const in PHP
 ## go into php-define-vs-const
+
+# in_array() vs || vs && in PHP
+## go into php-define-vs-const
