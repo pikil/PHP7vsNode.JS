@@ -1,10 +1,10 @@
 # Arrays vs Objects in PHP
-## just checking if objects really faster
+## just checking if objects are really faster
 
 Getting three different runs in PHP for different types of data initialisation
 
 #### Machine specification
-* v7.1.0
+* PHP v7.1.0
 * 4GB RAM,
 * Intel i3, 1.7 GHz
 

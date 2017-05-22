@@ -1,10 +1,10 @@
 # in_array() vs || vs && in PHP
-## just checking if for really faster
+## just checking if 'in_array' really faster
 
 Getting three different runs in PHP for different types of data initialisation
 
 #### Machine specification
-* v7.1.0
+* PHP v7.1.0
 * 4GB RAM,
 * Intel i3, 1.7 GHz
 
@@ -35,7 +35,7 @@ Getting three different runs in PHP for different types of data initialisation
 #### (Min: 148.2ms, Max: 178.3ms, Avg: 155.8ms)
 ##### 179.3ms (12 parameters)
 
-Surprisingly, with small number of parameters , (&& .. &&) is about 10% faster, than in_array() and about %5 faster, than (|| .. || )
+Surprisingly, with small number of parameters , (&& .. &&) is about 10% faster, than in_array() and about %5 faster, than (|| .. ||)
 
 #HOWEVER
 With the increasing of the elements, in_array() function starts to work faster, than functions (&& .. &&) and (|| .. ||).
