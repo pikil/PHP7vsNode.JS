@@ -14,4 +14,13 @@
 ## go into php-in_array-vs-or-vs-and
 
 # PDO vs MySQLI in PHP
-## go into pdo-vs-mysqli
+## go into php-pdo-vs-mysqli
+
+# include vs big file in PHP
+## go into php-include-vs-big-file
+
+# concat vs quotes in PHP
+## go into php-concat-vs-quotes
+
+# 0 vs false in PHP
+## go into php-zero-vs-false

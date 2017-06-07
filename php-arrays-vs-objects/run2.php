@@ -5,7 +5,7 @@ $array = [];
 
 for ($x=0; $x < 1000; $x++){
   $o = new ArrayObject;
-  $o->name = "Adam";
+  $o->name = 'Adam';
   $o->age = 35;
   $array[] = $o;
 }

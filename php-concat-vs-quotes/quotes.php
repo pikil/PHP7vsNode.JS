@@ -1,10 +1,10 @@
 <?
 $starttime = microtime(true);
 
-$array = [];
+$res = "";
 
-for ($x=0; $x < 1000; $x++)
-  $array[] = ['name' => 'Adam', 'age' => 35];
+for ($i=0; $i < 100000; $i++)
+  $res = "$i times run";
 
-print_r($array."\n");
+print_r($res."\n");
 echo 'PHP script ('.basename(__FILE__).') took '.((microtime(true) - $starttime) * 1000).'ms';
