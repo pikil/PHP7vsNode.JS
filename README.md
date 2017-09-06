@@ -1,26 +1,32 @@
 # PHP7vsNode.JS
-## go into php7-vs-nodejs
+## go to php7-vs-nodejs
 
 # Arrays vs Objects in PHP
-## go into php-arrays-vs-objects
+## go to php-arrays-vs-objects
 
 # For vs Foreach vs While in PHP
-## go into php-for-vs-foreach-vs-while
+## go to php-for-vs-foreach-vs-while
 
 # define() vs const in PHP
-## go into php-define-vs-const
+## go to php-define-vs-const
 
 # in_array() vs || vs && in PHP
-## go into php-in_array-vs-or-vs-and
+## go to php-in_array-vs-or-vs-and
 
 # PDO vs MySQLI in PHP
-## go into php-pdo-vs-mysqli
+## go to php-pdo-vs-mysqli
 
 # include vs big file in PHP
-## go into php-include-vs-big-file
+## go to php-include-vs-big-file
 
 # concat vs quotes in PHP
-## go into php-concat-vs-quotes
+## go to php-concat-vs-quotes
 
 # 0 vs false in PHP
-## go into php-zero-vs-false
+## go to php-zero-vs-false
+
+# is_null() vs === null in PHP
+## go to php-is_null-vs-equals-null
+
+# includes performance
+## go to php-include-perf
