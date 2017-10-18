@@ -13,7 +13,7 @@ Getting three different runs in PHP for different types of data initialisation
 * 97.78ms
 * 98.66ms
 * 100.27ms
-* 98.92.ms
+* 98.92ms
 #### (Min: 97.72ms, Max: 100.27ms, Avg: 98.67ms)
 
 ## function.php
