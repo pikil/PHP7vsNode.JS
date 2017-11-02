@@ -67,4 +67,4 @@ Getting three different runs in PHP for different types of data initialisation
 * 1543.32ms
 #### (Min: 1559.66ms, Max: 1543.32ms, Avg: 1548.01ms)
 
-No surprise, when single quotes are being used, the string comes unevaluated and shows the fastest processing result. Double quotes are slower there. However, when it comes to concatenation, the double quotes perform that task slightly faster (or at about the same level), if the variable is placed within text. So, the single quotes concatenation is the slower there.
+No surprise, when single quotes are being used, the string comes unevaluated and shows the fastest processing result. Double quotes are slower there. However, when it comes to concatenation, the double quotes perform that task slightly faster (or at about the same level), if the variable is placed within text. So, the single quotes concatenation is slower there.
