@@ -9,7 +9,7 @@ Getting three different runs in PHP for different types of data initialisation
 * Intel i3, 1.7 GHz
 
 
-#Small files
+# Small files
 ## single.php
 * 214.55ms
 * 218.03ms
@@ -34,7 +34,7 @@ Getting three different runs in PHP for different types of data initialisation
 * 302.34ms
 #### (Min: 302.34ms, Max: 301.19ms, Avg: 301.97ms)
 
-#Big files
+# Big files
 ## single-big.php
 * 1247.01ms
 * 1260.80ms
