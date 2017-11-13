@@ -16,7 +16,7 @@ for (var k in arr)
     new_arr[arr[k].id] = arr[k];
 
 var v = null;
-for (var i=1; i<2000; i+=2)
+for (var i=1; i<50000; i+=25)
   v = new_arr['String_' + i];
 
 console.timeEnd('test');

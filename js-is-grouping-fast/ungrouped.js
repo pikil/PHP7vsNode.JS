@@ -11,7 +11,7 @@ for (var i=1; i<50000; i++) {
 console.time('test');
 
 var v = null;
-for (var i=1; i<2000; i+=2) {
+for (var i=1; i<50000; i+=25) {
   for (var k in arr) {
     if (arr.hasOwnProperty(k) && arr[k].id == 'String_' + i) {
       v = arr[k];
