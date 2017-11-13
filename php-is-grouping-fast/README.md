@@ -1,7 +1,7 @@
-# Arrays vs Objects in PHP
+# s grouping faster in PHP?
 ## just checking if grouping beforehand really helps
 
-Getting three different runs in PHP for different types of data initialisation
+Getting two different runs in PHP for different types of data initialisation
 
 #### Machine specification
 * PHP v7.1.0
