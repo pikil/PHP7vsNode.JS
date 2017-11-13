@@ -8,20 +8,36 @@ Getting two different runs in JS for different types of data initialisation
 * 4GB RAM,
 * Intel i3, 1.7 GHz
 
-## ungrouped.js
-* 513.44ms
-* 517.16ms
-* 520.32ms
-* 527.58ms
-* 515.72ms
-#### (Min: 513.44ms, Max: 527.58ms, Avg: 518.84ms)
+## ungrouped.js for 200 requests
+* 2022.54ms
+* 1999.47ms
+* 1979.03ms
+* 1998.36ms
+* 2045.31ms
+#### (Min: 1979.03ms, Max: 2045.31ms, Avg: 2008.94ms)
 
-## grouped.js
-* 96.00ms
-* 93.73ms
-* 94.53ms
-* 93.55ms
-* 94.94ms
-#### (Min: 93.55ms, Max: 96.00ms, Avg: 94.55ms)
+## grouped.js for 200 requests
+* 114.82ms
+* 108.60ms
+* 94.00ms
+* 92.58ms
+* 97.57ms
+#### (Min: 92.58ms, Max: 114.82ms, Avg: 101.51ms)
 
-No surprise, the direct access is faster (about 5 times in this particular case) after grouping, if we need to access that array on a regular basis
+## ungrouped.js for 20 requests
+* 213.25ms
+* 203.33ms
+* 204.73ms
+* 206.29ms
+* 205.04ms
+#### (Min: 203.33ms, Max: 213.25ms, Avg: 206.53ms)
+
+## grouped.js for 20 requests
+* 110.45ms
+* 113.12ms
+* 94.69ms
+* 96.85ms
+* 92.88ms
+#### (Min: 92.88ms, Max: 113.12ms, Avg: 101.56ms)
+
+No surprise, the direct access is faster after grouping (the rate depends on the number of requests), if we need to access that array on a regular basis

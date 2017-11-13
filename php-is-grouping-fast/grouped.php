@@ -15,7 +15,7 @@ foreach ($arr as $a)
   $new_arr[$a['id']] = $a;
 
 $var = [];
-for ($i=1; $i < 50000; $i+=25)
+for ($i=1; $i < 50000; $i+=250)
   $var = $new_arr["String_$i"];
 
 $interval = (microtime(true) - $starttime) * 1000;

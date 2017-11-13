@@ -11,7 +11,7 @@ for ($i=1; $i < 50000; $i++)
 $starttime = microtime(true);
 
 $var = [];
-for ($i=1; $i < 50000; $i+=25) {
+for ($i=1; $i < 50000; $i+=250) {
   foreach ($arr as $a) {
     if ($a['id'] == "String_$i") {
       $var = $a;

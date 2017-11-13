@@ -9,20 +9,20 @@ Getting two different runs in PHP for different types of data initialisation
 * Intel i3, 1.7 GHz
 
 
-## ungrouped.php
-* 212.57ms
-* 212.04ms
-* 207.92ms
-* 211.81ms
-* 212.96ms
-#### (Min: 207.92ms, Max: 212.96ms, Avg: 211.46ms)
+## ungrouped.php for 200 requests
+* 2156.66ms
+* 2025.20ms
+* 2055.52ms
+* 1957.77ms
+* 2068.63ms
+#### (Min: 1957.77ms, Max: 2156.66ms, Avg: 2052.76ms)
 
-## grouped.php
-* 19.99ms
-* 19.40ms
-* 19.28ms
-* 19.29ms
-* 19.51ms
-#### (Min: 19.28ms, Max: 19.99ms, Avg: 19.49ms)
+## grouped.php for 200 requests
+* 20.24ms
+* 19.30ms
+* 19.73ms
+* 19.59ms
+* 19.54ms
+#### (Min: 19.30ms, Max: 20.24ms, Avg: 19.68ms)
 
-No surprise, the direct access is faster (about three times in this particular case) after grouping, if we need to access that array on a regular basis
+No surprise, the direct access is faster after grouping (the rate depends on the number of requests), if we need to access that array on a regular basis
