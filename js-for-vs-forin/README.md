@@ -24,4 +24,4 @@ Getting two different runs in JS for different types of data initialisation
 * 211.20ms
 #### (Min: 211.20ms, Max: 247.87ms, Avg: 220.00ms)
 
-Surprisingly, for in JS way faster in comparison to forin. Just in case, the same situation is checked on PHP and the situation is similar to the one from php-for-vs-foreach-vs-while
+Surprisingly, for in JS way faster in comparison to forin. Just in case, the same comparison is checked on PHP and the situation is similar to the one from php-for-vs-foreach-vs-while
