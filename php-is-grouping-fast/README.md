@@ -1,4 +1,4 @@
-# s grouping faster in PHP?
+# Is grouping faster in PHP?
 ## just checking if grouping beforehand really helps
 
 Getting two different runs in PHP for different types of data initialisation
