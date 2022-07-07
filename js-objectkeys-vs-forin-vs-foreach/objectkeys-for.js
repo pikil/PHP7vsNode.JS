@@ -1,4 +1,4 @@
-const object = {};
+const object = {}
 const key = 'key_'
 
 for (var i=1; i<=500000; i++) {
@@ -10,7 +10,7 @@ for (var i=1; i<=500000; i++) {
   }
 }
 
-console.time('test');
+console.time('test')
 
 const arr = []
 
@@ -19,6 +19,6 @@ const keys = Object.keys(object)
 for (let i = 0; i < keys.length; i++)
   arr.push(object[keys[i]])
 
-console.timeEnd('test');
-// console.log(arr);
-console.log("JS Script finished...");
+console.timeEnd('test')
+// console.log(arr)
+console.log("JS Script finished...")
