@@ -1,4 +1,4 @@
-# FOR vs FOR IN
+# FOR vs FOREACH vs FOR IN
 ## just checking if for is really faster
 
 Checking performance of Object.keys(), for .. in. We will be running three cases for comparing the best approach for iterating through object keys.
